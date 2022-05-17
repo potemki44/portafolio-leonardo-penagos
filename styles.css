@@ -1,0 +1,357 @@
+*{box-sizing: border-box;}
+
+.hero__container {
+    background-image: url('imagenes/portadapp.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80px 0px;
+
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .box,
+  .box2 {
+      margin-left: 0px;
+    width: 150px;
+    height: 150px;
+    ;
+    
+    padding: 30px ;
+  }
+  
+  .box {
+  display: relative;
+    bottom: 0px;
+    left: 0px;
+    padding: 0px 0px;
+    color: rgb(54, 57, 57);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .box2 {font-size: 25px;
+      position: absolute;
+    color:rgba(60, 211, 57, 0.946);
+    font-family:Arial;
+    top: 0px;
+    right: 0px;
+    padding-top: 0%;
+    padding-left: 38px;
+   
+  }
+
+
+
+body{ 
+    background-color: rgba(16, 93, 67, 0.915);
+    width: 375px;
+}
+.btn1{
+   color: azure;
+    margin-left: 310px;
+color:aliceblue;}
+
+    
+
+
+.hero {
+    position: relative;
+    background-image: url('imagenes/pattern.png');
+  
+    background-size: 280px 370px;
+    background-repeat: no-repeat;
+    background-position: 44% 0%;
+
+    height: 340px;
+
+   width: 100%;
+  
+  }
+
+
+.box>p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(30, 176, 64);
+    z-index: 3 ;}
+
+   
+
+ .box>span{color: aliceblue;}
+
+  
+
+
+  .box2>span{
+        font-size: 15px;
+        color: aliceblue;
+    }
+
+    /*section 2-------------------------------------------------------------------
+    ----------------
+    -----------------------------*/
+.about2{margin-top: ;}
+
+    .about2_div{
+        width: 360px;
+        padding: 15px 0px 0px 70px;
+        position: absolute;
+        height: 60px;
+        border-radius:10px;
+        background:rgb(195, 223, 200);
+        z-index: 3;}
+
+
+.about2_button{
+    margin-right: 20px;
+}
+.about2_button2{
+    margin-right: 20px;
+}
+.about2_button3{
+    margin-right: px;
+}
+
+
+h1{ 
+    margin-left: 100px;
+    color:rgba(150, 230, 148, 0.946);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px ;
+}
+
+
+
+.acercademi{
+    width: 350px;
+}
+
+p{
+  text-align: center;
+  font-size: 10PX;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  color: aliceblue;}
+
+
+h2{ margin-left: 120px;
+    color:rgba(150, 230, 148, 0.946);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px }
+
+
+.serviciosimg{
+    
+    margin-left: 13px;
+    border: 1px rgb(41, 76, 216) solid;
+    height: 360px;
+    width: 335px;}
+
+.servicios1{
+
+    width:332px;
+    height:356px;}
+
+.Habilidades{   
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 13px;
+        gap: 5px;
+      /*  border: 1px rgb(41, 76, 216) solid;*/
+        height:200px;
+        width: 335px;
+        color: aliceblue;}
+    
+    .Habilidades span{color: rgb(63, 235, 114)}
+
+
+.barras{width: 340px;
+        height: 8px;
+       /*border: 4px rgb(255, 249, 249) solid;*/
+        border-radius: 5px;
+        background-color: aliceblue;}
+
+
+.barras2{width: 300px;
+         border: 4px rgb(113, 229, 148) solid;
+         border-radius: 5px;}
+
+.miportafolio{ 
+    
+    margin-left: 1px;
+    height: 260px;
+    width: 335px;}
+
+.miportafolio1{
+    width: 333px;
+    height: 257px;}
+
+    .miportafolio2{
+        margin-left: 0;
+        padding-top: 0;
+        height: 0;
+        border-radius: ;
+    width: 0;}
+
+
+
+
+.contacto{ display:flex;
+gap:25px;}
+
+
+/* Dispositivos medianos */
+
+    
+@media screen and (min-width: 576px){ 
+   
+    body{ 
+        
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(40, 61, 222, 0.915);
+        width: 375px;
+     }
+        
+    
+    .grand_section{
+        display: flex;
+        
+      
+        
+       
+    }
+    .grandson1{ width: 100%;
+    border-right:  4px rgb(54, 18, 185) solid ;
+
+    
+}
+        
+   
+    
+ h1{color: rgb(15, 2, 109);}
+
+    .about2{margin-top:0px;}
+
+
+
+.about2_div{
+        width: 342px;
+        padding: 15px 0px 0px 70px;
+        position: absolute;
+        height: 55px;
+        border-radius:10px;
+        background:rgb(181, 193, 244);
+        z-index: 3;}
+
+        
+.port_title{
+    margin-top:379px;
+    position: absolute;
+    color:rgb(15, 2, 109)
+}
+
+    .servicios_title{
+        color:rgb(15, 2, 109)
+    }
+
+    .hab_title{color:rgb(15, 2, 109)}
+    
+    .miportafolio{margin-top: 150px;
+    height: 250px;}
+
+    .miportafolio1{padding-top: 10px;
+        height: 150px;
+        border-radius: 50px;
+    width: 60%;}
+
+    .miportafolio2{
+        margin-left: 90px;
+        padding-top: 10px;
+        height: 150px;
+        border-radius: 50px;
+    width: 60%;}
+
+    .Habilidades{display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 20px;}
+
+    .barras2{border: solid rgb(15, 2, 109);
+    background-color: rgb(15, 2, 109);
+height: 8px;}
+
+.hero {
+    position: relative;
+    background-image: url('imagenes/paternblue.png');
+  
+    background-size: 280px 370px;
+    background-repeat: no-repeat;
+    background-position: 44% 0%;
+
+    height: 340px;
+
+   width: 100%;%
+  
+  }
+
+
+
+
+
+.box>p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(30, 176, 64);
+    z-index: 3 ;}
+
+   
+
+ .box>span{color: aliceblue;}
+
+ .hero__container {
+    background-image: url('imagenes/portadapp.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80px 0px;
+
+    height: 100%;
+    z-index: 1;
+ }
+
+        
+
+
+.servicios1{width: 80%;
+margin-left: 20px;}
+
+
+
+.hcontacto{margin-top: 100px;}
+.contacto{ 
+    display:flex;
+
+    gap:170px;
+    padding-left: 20px;
+    height: 100px;
+    border:2px green solid;
+
+
+}
+
+
+.contacto>div{ 
+    display:flex;
+    margin: top px ;
+    gap:170px;
+    padding-left: 20px;
+    height: 100px;
+    border:2px green solid;
+
+
+
+}
+  }
